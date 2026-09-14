@@ -7,8 +7,8 @@ edition = "2024"
 matrix-sdk = { version = "0.18", default-features = false, features = ["sqlite", "e2e-encryption", "sso-login"] }
 gpui = { git = "https://github.com/zed-industries/zed" }
 gpui_platform = { git = "https://github.com/zed-industries/zed", features = ["font-kit", "wayland"] }
-gpui-component = { git = "https://github.com/longbridge/gpui-component" }
-gpui-component-assets = { git = "https://github.com/longbridge/gpui-component" }
+gpui-component = { git = "https://github.com/longbridge/gpui-kit" }
+gpui-component-assets = { git = "https://github.com/longbridge/gpui-kit" }
 tokio = { version = "1.53.1", features = ["full"] }
 smol = "2.0.2"
 open = "5.4.1"
